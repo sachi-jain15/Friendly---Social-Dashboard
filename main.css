@@ -1,0 +1,28 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+  background-color: #e9ebee;
+}
+
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+footer {
+  background-color: rgba(0,0,0,0.87);
+  height: 30px;
+}
+
+
