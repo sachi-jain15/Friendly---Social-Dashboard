@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Facebook</title>
     <!-- Bootstrap -->
     <link href="bootstrap.min.css" rel="stylesheet">
 	  <link href="main.css" rel="stylesheet">
@@ -14,8 +14,9 @@
   <body>
 	<div class="container">
     <header>
-      <nav class="navbar navbar-default" id="header">
-  <div class="container-fluid">
+    <!-- navbar added from source -> http://getbootstrap.com/components/#navbar -->
+    <nav class="navbar navbar-default" id="header">
+    <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,58 +25,105 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand white-text" href="#">Friendly</a>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
       <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+      <ul class="nav navbar-nav navbar-right ">
+        <li><a class="white-text" href="#"><img src="https://lh3.googleusercontent.com/fP1gRl64INfG-anIm0kYDITZwA3TWlRe72MFsh2tEdztcmrz_h1QmJOBJEOJTB8aq7D98UQ=s32" style="width:23px;height:23px">  Sachi</a></li>
+        <li><a class="white-text" href="#">Home</a></li>
+        <li><a class="white-text" href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+        <li><a class="white-text" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+        <li><a class="white-text" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+        <li><a class="white-text" href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle white-text data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Create Page</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Create Group</a></li>
+            <li><a href="#">Your Group</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Create Ads</a></li>
+            <li><a href="#">Advertising on Facebook</a></li>
+            <li role="separator" class="divider"></li>
+             <li><a href="#">Activity Log</span>  Messenger<span class="badge">3+</span></a></li>
+            <li><a href="#">News Feed Preferences</a></li>
+             <li><a href="#">Setting</a></li>
+            <li><a href="#">Log Out</a></li>
           </ul>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    </div><!-- /.container-fluid -->
+    </nav>
     </header>
 		  <div class="container-fluid" id="wrapper">
 			 <div class="row">
-			 	<div class="col-md-2"><div id="menu"></div></div>
-				<div class="col-md-7"><div id="main"></div></div>
+			 	<div class="col-md-3">
+        <div id="menu">
+        <ul class="nav nav-pills nav-stacked">
+          <li role="presentation"><a href="#" class="black-text"><img src="https://lh3.googleusercontent.com/fP1gRl64INfG-anIm0kYDITZwA3TWlRe72MFsh2tEdztcmrz_h1QmJOBJEOJTB8aq7D98UQ=s32" style="width:24px;height:24px"> Sachi Jain</a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>  News Feed</a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  Messenger<span class="badge align">29+</span></a></li>
+          <p class="list-heading">SHORTCUTS</p>
+          <li role="presentation"><a href="#" class="black-text"><img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-1/p160x160/18198591_1955670137998896_1515049900483457919_n.jpg?oh=f413940e05b3230a1635b9ab100cba1e&oe=59CB606C" style="width:23px;height:23px">   Acadview<span class="badge align">3+</span></a></li>
+          <li role="presentation" class="icon"><a href="#" class="black-text"><img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t39.2081-6/c2.2.19.19/p24x24/18900288_311631765932057_781931236124786688_n.png?oh=34c715831444a9d97ecac4cb49385c89&oe=59C31ED3">  HTML, Css Group<span class="badge align">3+</span></a></li>
+          <li role="presentation" ><a href="#" class="black-text"><img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t39.2081-6/c2.2.19.19/p24x24/13438474_199579163772990_56942017_n.png?oh=d251c01e0c35510866a9000db227db6e&oe=59D8F12E">  Bootstrap Fundas <span class="badge align">15+</span></a></li>
+          <li role="presentation"><a href="#" class="black-text"><img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t39.2081-6/c2.2.19.19/p24x24/18316400_1299985113383890_7472849280898695168_n.png?oh=39d032ec1b1488ecb5b6ae487010c635&oe=59D8180A">  Words</a></li>
+          <p class="list-heading">EXPLORE</p>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-calender" aria-hidden="true"></span>  Event<span class="badge align">2+</span></a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>  Movies<span class="badge align">5+</span></a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>  Music</a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>  Saved</a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>  Location</a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>  Shops</a></li>
+          <li role="presentation"><a href="#" class="black-text"><span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>  Foods</a></li>
+          <p class="list-heading">CREATE</p>
+          <li role="presentation"><a href="#" class="black-text">Ad</a></li>
+          <li role="presentation"><a href="#" class="black-text">Page</a></li>
+          <li role="presentation"><a href="#" class="black-text">Group</a></li>
+        </ul>   
+        </div>
+        </div>
+				<div class="col-md-6">
+          <div id="main">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+              </div>
+              <div class="panel-body">
+              Panel content
+              </div>
+              <div class="panel-footer">Panel footer</div>
+            </div>   
+          </div>
+        </div>
 				<div class="col-md-3"><div id="sidebar"></div></div>
 			</div>
 		</div>
-	<footer></footer>
+    <!-- <div id="main">
+    <div>
+        <img src="https://pbs.twimg.com/profile_images/1146014416/mark-zuckerberg.jpg" style="float: right";>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sint ipsa magnam, fugit eum, illo repellat quae facere laborum accusantium neque hic minima, qui animi quo nesciunt! Doloribus, quis, et.</p>
+    
+</div> -->
+	 <footer>
+    <ul class="nav nav-pills pull-right">
+      <li role="presentation "><a href="# ">About Us</a></li>
+      <li role="presentation "><a href="# ">Home</a></li>
+      <li role=" presentation "><a href="# ">Privacy</a></li>
+      <li role="presentation "><a href="# ">Advertising</a></li>
+      <li role="presentation "><a href="# ">Cookies</a></li>
+      <li role="presentation "><a href="# ">Ad Choices</a></li>
+    </ul> 
+  </footer>
   </div>
 </body>
 </html>
