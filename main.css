@@ -5,14 +5,14 @@
 }
 
 #wrapper {
-  margin-top: 16px;
-  margin-bottom: 16px;
+    margin-top: 65px;
+    margin-bottom: 65px
 }
 
 #main,
 #menu,
 #sidebar {
-  height: 900px;
+  height: 4070px;
   background-color: #e9ebee;
 }
 #header {
@@ -31,6 +31,59 @@
 .black-text{
 	color: black;
 }
-.align{
-	left: 0px;
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+p {
+	margin: 0 0 10px;
+}
+.comment {
+    margin: 0;
+}
+.last{
+	color: gray;
+}
+.first {
+    	margin: 10px;
+}
+.second{
+	color: blak;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
