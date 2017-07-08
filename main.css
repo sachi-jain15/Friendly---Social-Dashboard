@@ -12,7 +12,7 @@
 #main,
 #menu,
 #sidebar {
-  height: 4070px;
+  height: 4200px;
   background-color: #e9ebee;
 }
 #header {
@@ -63,7 +63,12 @@ p {
 .second{
 	color: blak;
 }
-
+#loadMore {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
 
 
 
